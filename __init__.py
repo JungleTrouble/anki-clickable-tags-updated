@@ -1,8 +1,8 @@
-# Copyright (C) 2026 Tag Click Search contributors
+# Copyright (C) 2026 Clickable Tags Updated contributors
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Licensed under the GNU Affero General Public License v3 or later; see LICENSE.
 
-"""Tag Click Search
+"""Clickable Tags Updated
 
 Click a tag in Anki's note editor (Browser, Add, Edit) to open the Browser
 showing every card with that tag. Double-click a tag to rename it as usual.
@@ -17,8 +17,8 @@ from typing import Any
 
 from aqt import dialogs, gui_hooks, mw
 
-PREFIX = "tagClickSearch:"
-_JS = (Path(__file__).parent / "web" / "tag_click_search.js").read_text(encoding="utf-8")
+PREFIX = "clickableTagsUpdated:"
+_JS = (Path(__file__).parent / "web" / "clickable_tags_updated.js").read_text(encoding="utf-8")
 
 
 def _is_editor(context: Any) -> bool:

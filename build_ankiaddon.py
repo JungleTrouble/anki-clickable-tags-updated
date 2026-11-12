@@ -1,4 +1,4 @@
-"""Build tag_click_search.ankiaddon from this folder.
+"""Build clickable_tags_updated.ankiaddon from this folder.
 
 Usage:  python build_ankiaddon.py [output_path]
 
@@ -11,11 +11,11 @@ import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-FILES = ["__init__.py", "manifest.json", "LICENSE", "web/tag_click_search.js"]
+FILES = ["__init__.py", "manifest.json", "LICENSE", "web/clickable_tags_updated.js"]
 
 
 def main() -> None:
-    out = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "tag_click_search.ankiaddon"
+    out = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "clickable_tags_updated.ankiaddon"
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
         for name in FILES:
             zf.write(HERE / name, name)

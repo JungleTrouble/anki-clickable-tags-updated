@@ -1,4 +1,4 @@
-# Tag Click Search
+# Clickable Tags Updated
 
 An Anki add-on: **click a tag in the note editor to see every card with that tag.**
 
@@ -21,7 +21,7 @@ In Anki's Browser, clicking a tag in the tag box normally opens it for renaming.
 ## Install
 
 - **AnkiWeb:** Tools → Add-ons → Get Add-ons, then paste the code from the add-on's AnkiWeb page.
-- **From file:** Tools → Add-ons → Install from file… and choose `tag_click_search.ankiaddon`.
+- **From file:** Tools → Add-ons → Install from file… and choose `clickable_tags_updated.ankiaddon`.
 
 Restart Anki after installing. No setup or card template changes are needed.
 
@@ -30,7 +30,7 @@ Restart Anki after installing. No setup or card template changes are needed.
 - Windows, macOS and Linux: it's plain Python and JavaScript with no platform-specific code.
 - Requires **Anki 24.06 or later**: that release added the `data-addon-tag` attribute this add-on relies on. Tested on Anki 26.09.
 - Read-only: it never changes notes, tags or note types.
-- Pairs with **Clickable Tags v3.0**, which makes tags clickable on the review screen. This add-on only changes the editor, so they don't overlap.
+- A separate add-on written from scratch, not a fork of the original Clickable Tags. It pairs with **Clickable Tags v3.0**, which makes tags clickable on the review screen. This add-on only changes the editor, so they don't overlap.
 
 ## How it works
 
@@ -41,7 +41,7 @@ One gotcha: the editor displays `::` as the look-alike character `∷` (U+2237),
 ## Files
 
 - `__init__.py`: hooks and Browser search
-- `web/tag_click_search.js`: click handling inside the editor
+- `web/clickable_tags_updated.js`: click handling inside the editor
 - `manifest.json`: package info for `.ankiaddon` installs
 - `LICENSE`: full AGPL-3.0 text
 - `build_ankiaddon.py`: builds the `.ankiaddon` package (`python build_ankiaddon.py`)
@@ -49,11 +49,11 @@ One gotcha: the editor displays `::` as the look-alike character `∷` (U+2237),
 
 ## Support
 
-Found a bug or have an idea? [Open an issue](https://github.com/JungleTrouble/anki-tag-click-search/issues).
+Found a bug or have an idea? [Open an issue](https://github.com/JungleTrouble/anki-clickable-tags-updated/issues).
 
 ## License
 
-Copyright (C) 2026 Tag Click Search contributors.
+Copyright (C) 2026 Clickable Tags Updated contributors.
 
 Licensed under the **GNU Affero General Public License v3.0 or later** (AGPL-3.0-or-later), the same license as Anki. See [LICENSE](LICENSE).
 

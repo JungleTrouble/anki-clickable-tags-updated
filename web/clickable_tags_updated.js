@@ -1,17 +1,17 @@
-// Copyright (C) 2026 Tag Click Search contributors
+// Copyright (C) 2026 Clickable Tags Updated contributors
 // SPDX-License-Identifier: AGPL-3.0-or-later
 //
-// Tag Click Search: click a tag in the note editor to see every card with that tag.
+// Clickable Tags Updated: click a tag in the note editor to see every card with that tag.
 // Single click  -> open the Browser searching that tag
 // Double click  -> Anki's normal behaviour (rename the tag)
 // Ctrl/Cmd/Shift/Alt + click and the delete icon are left untouched.
 (() => {
-    if (window.__tagClickSearchLoaded) {
+    if (window.__clickableTagsUpdatedLoaded) {
         return;
     }
-    window.__tagClickSearchLoaded = true;
+    window.__clickableTagsUpdatedLoaded = true;
 
-    const PREFIX = "tagClickSearch:";
+    const PREFIX = "clickableTagsUpdated:";
     const DOUBLE_CLICK_WINDOW_MS = 250;
 
     let pendingTimer = null;

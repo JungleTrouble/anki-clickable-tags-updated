@@ -22,11 +22,11 @@ After clicking a tag, use **Edit → Create Filtered Deck** (Ctrl+G) in the Brow
 - Read-only: it never changes your notes, tags or note types.
 - Works the same on Windows, macOS and Linux.
 - Requires **Anki 24.06 or later**. Tested on Anki 26.09.
-- Want clickable tags on the review screen instead? See **Clickable Tags v3.0**. It only changes the review screen and this add-on only changes the editor, so they don't overlap.
+- Clickable Tags Updated is a separate add-on written from scratch, not a fork of the original Clickable Tags. It works in the **editor**. For clickable tags on the **review screen**, see **Clickable Tags v3.0**. The two don't overlap, so you can use both.
 
 ### Support
 
-Found a bug or have an idea? [Open an issue on GitHub](https://github.com/JungleTrouble/anki-tag-click-search/issues). The source code is there too.
+Found a bug or have an idea? [Open an issue on GitHub](https://github.com/JungleTrouble/anki-clickable-tags-updated/issues). The source code is there too.
 
 ### License
 

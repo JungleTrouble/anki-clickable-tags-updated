@@ -1,6 +1,6 @@
 {
-  "package": "tag_click_search",
-  "name": "Tag Click Search",
+  "package": "clickable_tags_updated",
+  "name": "Clickable Tags Updated",
   "min_point_version": 240600,
-  "homepage": "https://github.com/JungleTrouble/anki-tag-click-search"
+  "homepage": "https://github.com/JungleTrouble/anki-clickable-tags-updated"
 }
